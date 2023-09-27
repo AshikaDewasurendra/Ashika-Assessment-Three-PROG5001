@@ -14,6 +14,11 @@ String studentID;
 double A1;
 double A2;
 double A3;
+double total;
+
+public Student(String lastName , String firstName , String studentID , double A1 , double A2 , double A3 , double total){}
+
+
 
 
 
