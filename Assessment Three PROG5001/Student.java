@@ -16,7 +16,17 @@ double A2;
 double A3;
 double total;
 
-public Student(String lastName , String firstName , String studentID , double A1 , double A2 , double A3 , double total){}
+public Student(String lastName , String firstName , String studentID , double A1 , double A2 , double A3 , double total){
+
+this.lastName = lastName;
+this.firstName = firstName;
+this.studentID = studentID;
+this.A1 = A1;
+this.A2 = A2;
+this.A3 = A3;
+this.total = (A1+A2+A3);
+
+}
 
 
 
